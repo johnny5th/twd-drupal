@@ -60,7 +60,6 @@ class ScriptHandler {
     }
 
     $event->getIO()->write("installing node modules");
-    exec('yarn install');
 
   }
 
