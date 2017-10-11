@@ -38,6 +38,13 @@ Run `docker-composer up` to start the containers.
 
 Docker for Windows and Mac are known to have some performance issues with mounted volumes. Docker Sync is a third party ruby gem to deal with this issue. This project includes a Docker Sync configuration for Mac, but can easily be modified to work with Windows. Read about Docker Sync [here](http://docker-sync.io/)
 
+When installing Drupal from the Docker image, use this database configuration:
+
+* Database: drupal
+* Username: drupal
+* Password: drupal
+* Host: mariadb
+
 
 ## What does the template do?
 
